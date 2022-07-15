@@ -35,9 +35,9 @@ function sumOfNumbers(arrayOfNumbers) {
  */
 function countEvenNumbers(arrayOfNumbers) {
   var evenSum = 0;
-  for (let index = 0; index < arrayOfNumbers.length; index++) {
-    if (arrayOfNumbers[index] % 2 === 0) {
-      evenSum = evenSum + arrayOfNumbers[index];
+  for (let i = 0; i < arrayOfNumbers.length; i++) {
+    if (arrayOfNumbers[i] % 2 === 0) {
+      evenSum = evenSum + arrayOfNumbers[i];
     }
     
   }
