@@ -62,14 +62,16 @@ function countEvenNumbers(arrayOfNumbers) {
 function celsiusToFahrenheit(arrayOfNumbers) {
 
    function double(number) {
+   
   return number  * 1.8 + 32;
  }
  const numbers = arrayOfNumbers;
- const doubled = numbers.MathTrunc(map(double));
+ const doubled = numbers.map(double);
+ 
  // console.log(doubled); 
   return doubled;
 }
-  assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+ // assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
