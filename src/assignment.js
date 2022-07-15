@@ -69,7 +69,7 @@ function celsiusToFahrenheit(arrayOfNumbers) {
  // console.log(doubled); 
   return doubled;
 }
- assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+//  assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
